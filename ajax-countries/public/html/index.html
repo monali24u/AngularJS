@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <title>Countries</title>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script src="/mainController.js"></script>
+  </head>
+
+  <body ng-controller="viewCntl">
+    <ul>
+      <li ng-repeat="country in countiresData">{{country.name}}<li>
+    </ul>
+    <!-- <button type='btn' ng-click="">Load Countries</button> -->
+  </body>
+
+</html>
